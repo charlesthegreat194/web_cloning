@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: space-around;
+}
+.navbar, .button-links{
+    display: flex;
+}
+.button-links{
+    gap: 20px;
+}
+.drop-btn{
+    position: relative;
+
+    display: inline-block;
+}
+.dropdown-link{
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+.drop-btn:hover, .dropdown-link{
+    display: block;
+}
